@@ -54,7 +54,7 @@ const prueba = new Contenedor("productos.txt")
 prueba.leerObjetos()
 
 app.get("/", (req, res) => {
-  res.send('<h1>Bienvenidos al servidor express</h1>'
+  res.send('<h1>Bienvenidos al servidor mi primer express</h1>'
   );
   
 });
